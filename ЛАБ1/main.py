@@ -41,4 +41,3 @@ pipeline = Pipeline([
 
 pipeline.fit(X_train, y_train)
 joblib.dump(pipeline, '/Users/ivanscherbakov/Documents/ВУЗ/ИТиП/ЛАБ1/Laptop_price_model.pkl')
-
